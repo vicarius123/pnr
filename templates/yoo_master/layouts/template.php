@@ -25,7 +25,6 @@
 			//header("Location: /popup.php");
 		}
 	}
-	echo 'git';
 ?>
 <!DOCTYPE HTML>
 <html lang="<?php echo $this['config']->get('language'); ?>" dir="<?php echo $this['config']->get('direction'); ?>">
