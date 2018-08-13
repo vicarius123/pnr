@@ -13,7 +13,7 @@ class JConfig {
 	public $captcha = '0';
 	public $cookie_domain = '';
 	public $cookie_path = '';
-	public $db = 'u0289771_odessa';
+	public $db = 'u0289771_pnr';
 	public $dbprefix = 'zj1p3_';
 	public $dbtype = 'mysqli';
 	public $debug = '0';
@@ -67,7 +67,7 @@ class JConfig {
 	public $smtpuser = 'info@cafeodessa.ru';
 	public $tmp_path = '/var/www/vhosts/u0289771.plsk.regruhosting.ru/httpdocs/cafeodessa.ru/tmp';
 	public $unicodeslugs = '0';
-	public $user = 'u0289_odessa';
+	public $user = 'u0289_none';
 	public $mailonline = '1';
 	public $frontediting = '1';
 	public $asset_id = '1';
