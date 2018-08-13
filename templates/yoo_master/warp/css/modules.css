@@ -1,0 +1,12 @@
+.module { position: relative; }
+.deepest > *:first-child { margin-top: 0; }
+.deepest > *:last-child { margin-bottom: 0; }
+.module .module-title { margin: 0 0 15px 0; }
+.module .module-title span.title { display: block; }
+.module .module-title span.subtitle {
+	display: block;
+	margin-top: 2px;
+	line-height: 14px;
+	font-size: 12px;
+	text-indent: 1px;
+}

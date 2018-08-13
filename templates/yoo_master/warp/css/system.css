@@ -1,0 +1,231 @@
+#system .page-title {
+	margin-top: 0;
+	font-size: 18px;
+	line-height: 18px;
+}
+#system .title { margin-top: 0; }
+#system .title a { text-decoration: none; }
+#system .title + .title { margin-top: 20px; }
+#system > .description {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+#system small { font-style: italic; }
+#system .item > header { margin-bottom: 15px; }
+#system .item > :first-child + header { margin-top: 10px; }
+#system .item > header .title { margin-bottom: 0; }
+#system .item > header .meta {
+	margin: 10px 0 0 0;
+	font-size: 11px;
+	line-height: 13px;
+}
+#system .item > header .subtitle{
+	margin: 0 0 8px 0;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#system .item > .content > *:first-child:not(.grid-gutter),
+#system .item > .content > *[class*="align"]:first-child + * { margin-top: 0; }
+#system .item > .content > *:last-child:not(.grid-gutter) { margin-bottom: 0; }
+#system .item > .links { margin: 22px 0 0 0; }
+#system .item > .links a { margin-right: 15px; }
+#system .item > .taxonomy {}
+#system .item > .trackback {}
+#system .item > .edit {}
+#system .item > *:last-child { margin-bottom: 0; }
+#system .item .socialbuttons { margin-top: 15px; }
+#system .item .socialbuttons > div {
+	margin-right: 10px;
+	float: left;
+}
+#system .items { margin: 0 -10px 0 -10px; }
+#system .items .item { margin: 0 10px 0 10px; }
+#system .items > .width50 .title { font-size: 22px; line-height: 22px; }
+#system .items > .width33 .title { font-size: 20px; line-height: 20px; }
+#system .items > .width25 .title { font-size: 18px; line-height: 18px; }
+#system .pagination {
+	margin-top: 10px;
+	text-align: center;
+}
+#system .pagination a { text-decoration: none; }
+#system .pagination strong { font-weight: normal; }
+#system .pagination a,
+#system .pagination strong {
+	display: inline-block;
+	min-width: 15px;
+	height: 25px;
+	margin-left: 5px;
+	padding: 0 5px;
+	line-height: 25px;
+}
+#system .pagination > *:first-child { margin-left: 0; }
+#system .pagination a.previous,
+#system .pagination a.next {
+	font-size: 16px;
+	line-height: 23px;
+}
+.breadcrumbs { overflow: hidden; }
+.breadcrumbs a,
+.breadcrumbs span,
+.breadcrumbs strong {
+	display: inline-block;
+	text-decoration: none;
+}
+.breadcrumbs a,
+.breadcrumbs > span { margin-right: 10px; }
+.tagcloud {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.tagcloud li {
+	display: inline-block;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.tagcloud a { white-space: nowrap; }
+.tagcloud .weight1 a { font-size: 11px; }
+.tagcloud .weight2 a { font-size: 12px; }
+.tagcloud .weight3 a { font-size: 13px; }
+.tagcloud .weight4 a { font-size: 14px; }
+.tagcloud .weight5 a { font-size: 15px; }
+.tagcloud .weight6 a { font-size: 16px; }
+.tagcloud .weight7 a { font-size: 18px; }
+.tagcloud .weight8 a { font-size: 20px; }
+.tagcloud .weight9 a { font-size: 23px; letter-spacing: -1px; }
+.tagcloud .weight10 a { font-size: 26px; letter-spacing: -1px; }
+.page-nav { margin-top: 15px; }
+.page-nav .prev { float: left; }
+.page-nav .next { float: right; }
+
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/*
+ * Additional System Stylesheet for Joomla 3.0
+ */
+
+
+/* Item (Addition)
+----------------------------------------------------------------------------------------------------*/
+ 
+#system .item > header .icon { 
+	margin: 2px 0 0 5px;
+	float: right;
+}
+
+
+#system .item > .edit { margin-top: 15px; }
+
+
+/* Item List
+----------------------------------------------------------------------------------------------------*/
+
+#system .item-list {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+/* Filter
+----------------------------------------------------------------------------------------------------*/
+
+#system .filter {
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+
+#system .filter > div {
+	margin: 0 10px 0 0;
+	float: left;
+}
+
+
+/* Form Submission
+----------------------------------------------------------------------------------------------------*/
+
+#system form.submission fieldset > div:before,
+#system form.submission fieldset > div:after { 
+	content: " ";
+	display: block;
+}
+#system form.submission fieldset > div:after { clear: both; }
+#system form.submission fieldset > div > * { vertical-align: middle; }
+#system form.submission fieldset > div > label:first-child {
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+#system form.submission fieldset > div > input[type='text'],
+#system form.submission fieldset > div > input[type='password'] {
+	padding: 5px;
+	width: 250px;
+}
+#system form.submission fieldset > div > select {
+	padding: 5px;
+	width: 262px;
+}
+
+#system form.submission fieldset > div > textarea { width: 255px; }
+
+#system form.submission div.submit {
+	margin-top: -20px;
+	text-align: center;
+}
+
+/* Validation */
+#system .invalid { border-color: #ff0000; }
+#system label.invalid { color: #ff0000; }
+
+/* Small (Login) */
+#system form.submission.small fieldset > div { margin: 15px 0; }
+
+
+
+/* Tooltip
+----------------------------------------------------------------------------------------------------*/
+
+.tip-wrap {
+	display: none;
+	float: left;
+	background: #ffc;
+	border: 1px solid #D4D5AA;
+	padding: 5px;
+	max-width: 200px;
+	color: #323232;
+	font-size: 12px;
+}
+
+.tip-title {
+	margin-top: -15px;
+	padding: 15px 0 5px 0;
+	background: url(../images/selector-arrow.png) no-repeat;
+	font-weight: bold;
+	font-size: 13px;
+	
+}
+
+#system .title a { color: #444; }
+#system small { color: #999; }
+#system .item > header .meta { color: #999; }
+#system .item > header .subtitle { color: #777; }
+#system .item > .links a:after {
+	content: " »";
+	font-size: 16px;
+}
+#system .items .item {
+	margin-top: 12px;
+	padding-top: 18px;
+	border-top: 1px solid #ddd;
+}
+#system .items .item:first-child {
+	margin-top: 0;
+	padding-top: 0;
+	border-width: 0;
+}
+#system .pagination a,
+#system .pagination strong { border: 1px solid #ddd; }

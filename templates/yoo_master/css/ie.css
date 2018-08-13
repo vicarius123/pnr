@@ -1,0 +1,22 @@
+h1, h2, h3, 
+.menu-dropdown a.level1,
+.menu-dropdown span.level1, 
+.mod-phone a, 
+.din, 
+.page-contacts #content .content, 
+#banner, 
+.jbzoo .product-buttons .jsTotal, 
+.jbzoo .jbzoo-item .item-body .item-price-position .jsTotal, 
+.jbzoo .jbprice-count .jsCount, 
+.jbzoo .jbbasket-table .jsTotalCount, 
+.jbzoo .jbbasket-table .jsSubtotal, 
+.jbzoo .jbbasket-table .jsTotalPrice, 
+.jbzoo .jbprice-count .btn-mini, 
+.jbzoo .jbbasket-table tfoot tr td:first-child strong {
+	font-family: 'Open Sans Condensed', sans-serif !important;
+	font-weight: 300;
+}
+.street span {
+	float: right;
+	clear: right;
+}

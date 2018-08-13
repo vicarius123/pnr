@@ -1,0 +1,198 @@
+.display-block { display: block; }
+.remove-margin { margin: 0; }
+.remove-margin-t { margin-top: 0; }
+.remove-margin-b { margin-bottom: 0; }
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+.size-auto {
+	max-width: 100%;
+	height: auto;
+}
+.align-left,
+.alignleft {
+	display: block;
+	margin-right: 15px;
+	float: left;
+}
+.align-right,
+.alignright {
+	display: block;
+	margin-left: 15px;
+	float: right;
+}
+.align-center,
+.aligncenter {
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.text-justify { text-align: justify; }
+.button-more,
+.button-default,
+.button-primary { display: inline-block; }
+.button-more + [class*=button-],
+.button-default + [class*=button-],
+.button-primary + [class*=button-] { margin-left: 10px; }
+ul.blank,
+ul.space,
+ul.line,
+ul.check,
+ul.zebra {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.space li { margin-top: 15px; }
+ul.space li:first-child { margin-top: 0; }
+ul.line > li {
+	margin-top: 5px;
+	padding-top: 5px;
+}
+ul.line > li:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+ul.check > li { margin-top: 5px; }
+ul.check > li:first-child { margin-top: 0; }
+ul.zebra > li { padding: 5px; }
+ul.line > li > a:first-child,
+ul.check > li > a:first-child { display: block; }
+table.zebra { width: 100%; }
+table.zebra th {
+	font-size: 16px;
+	font-weight: normal;
+	text-align: left;
+}
+table.zebra th,
+table.zebra td { padding: 5px; }
+table.zebra tbody,
+table.zebra tfoot { font-size: 12px; }
+table.zebra .bold { font-weight: bold; }
+table.zebra .center { text-align: center; }
+table.zebra td * { vertical-align: middle; }
+table.zebra tfoot { font-style: italic; }
+table.zebra caption {
+	font-size: 11px;
+	text-align: left;
+	font-style: italic;
+}
+dl.separator {
+	padding: 0;
+	overflow: hidden;
+}
+dl.separator dt {	
+	width: 160px;
+	padding-right: 10px;
+	float: left;
+	clear: both;
+}
+dl.separator dd {
+	margin-left: 170px;
+	padding-left: 20px;
+}
+em.box { 
+	padding: 0 3px;
+	white-space: nowrap;
+}
+hr.dotted { border: none; }
+p.dropcap:first-letter {
+	display: block;
+	margin: 7px 4px 0px 0px;
+	float: left;
+	font-size: 280%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.box-content,
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download {
+	margin: 15px 0;
+	padding: 10px;
+}
+
+.box-content { padding: 20px; }
+
+.box-info,
+.box-warning,
+.box-hint,
+.box-download { padding-left: 40px; }
+form.box fieldset {
+	margin-bottom: 30px;
+	padding: 0 10px 10px 10px;
+}
+form.box legend { padding: 0 10px; }
+form.box fieldset > div { margin: 15px 0; }
+form.box button,
+form.box input[type='button'],
+form.box input[type='reset'] { vertical-align: middle; }
+form.short > div { margin: 10px 0; }
+form.short input { color: #333; }
+form.short input:-moz-placeholder { color: #999; }
+form.short input::-webkit-input-placeholder { color: #999; }
+form.short input.placeholder { color: #999; }
+.button-default {
+	padding: 3px 10px;
+	border: 1px solid #ddd;
+}
+.button-primary {
+	padding: 3px 10px;
+	background: #48b;
+	color: #FFF;
+}
+.button-primary:hover {
+	color: #FFF;
+	background: #d50;
+}
+img.border-box { border: 1px solid #ddd; }
+ul.zebra > li,
+table.zebra tbody td { border-bottom: 1px solid #ddd; }
+ul.zebra > li:first-child,
+table.zebra tbody tr:first-child td { border-top: 1px solid #ddd; }
+ul.zebra > li.odd,
+table.zebra tbody tr.odd { background: #fafafa; }
+ul.zebra > li:nth-of-type(odd),
+table.zebra tbody tr:nth-of-type(odd) { background: #fafafa; }
+table.zebra caption { color: #999; }
+dl.separator dt {	
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+dl.separator dd {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #DDD;
+}
+dl.separator dt:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -15px;
+	width: 30px;
+	border-top: 1px solid #DDD;
+}
+dl.separator dt:after {
+	content: "";
+	position:absolute;
+	top: -3px;
+	right: -4px;
+	width: 5px;
+	height: 5px;
+	background: #FFF;
+	border: 1px solid #DDD;
+	border-radius:6px;
+}
+dl.separator dt:first-child:before,
+dl.separator dt:first-child:after { display: none; }
+form.box fieldset { border: 1px solid #ddd; }
+form.box legend { background: #fff; }

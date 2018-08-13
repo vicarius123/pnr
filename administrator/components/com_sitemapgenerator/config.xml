@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="sitemapgenerator"
+		label="COM_SITEMAPGENERATOR_CONFIG_LABEL"
+		description="COM_SITEMAPGENERATOR_CONFIG_DESC">
+		
+		<field
+			name="token"
+			type="textarea"
+			rows="25"
+			label="COM_SITEMAPGENERATOR_FIELD_TOKEN_LABEL"
+			description="COM_SITEMAPGENERATOR_FIELD_TOKEN_DESC"
+			default="">
+		</field>
+
+		<field
+			name="multilang_support"
+			type="list"
+			label="COM_SITEMAPGENERATOR_FIELD_MULTILANG_SUPPORT_LABEL"
+			description="COM_SITEMAPGENERATOR_FIELD_MULTILANG_SUPPORT_DESC"
+			default="0">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="ignore_embedded_content"
+			type="list"
+			label="COM_SITEMAPGENERATOR_FIELD_IGNORE_EMBEDDED_CONTENT_LABEL"
+			description="COM_SITEMAPGENERATOR_FIELD_IGNORE_EMBEDDED_CONTENT_DESC"
+			default="0">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field name="max_fetchers"
+			type="integer"
+			label="COM_SITEMAPGENERATOR_FIELD_MAX_FETCHERS_LABEL"
+			description="COM_SITEMAPGENERATOR_FIELD_MAX_FETCHERS_DESC"
+			first="1"
+			last="10"
+			step="1"
+			default="10"
+		/>
+
+		<field
+			name="ca_fallback"
+			type="list"
+			label="COM_SITEMAPGENERATOR_FIELD_CA_FALLBACK_LABEL"
+			description="COM_SITEMAPGENERATOR_FIELD_CA_FALLBACK_DESC"
+			default="0">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+	</fieldset>
+
+	<fieldset
+		name="permissions"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		description="JCONFIG_PERMISSIONS_DESC">
+
+		<field
+			name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			class="inputbox"
+			validate="rules"
+			filter="rules"
+			component="com_sitemapgenerator"
+			section="component"
+		/>
+	</fieldset>
+</config>

@@ -1,0 +1,124 @@
+.menu,
+.menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.menu a,
+.menu span { display: block; }
+.menu a { text-decoration: none; }
+.menu-dropdown li { position: relative; }
+.menu-dropdown,
+.menu-dropdown .level1,
+.menu-dropdown .level1 > span { float: left; }
+.menu-dropdown .dropdown {
+	display: none;
+	position: absolute;
+	top: 30px;
+ 	left: 0;
+	z-index: 100;
+	width: 300px;
+}
+.menu-dropdown li:hover .dropdown,
+.menu-dropdown li.remain .dropdown { display: block; }
+.menu-dropdown li:hover .dropdown.flip,
+.menu-dropdown li.remain .dropdown.flip {
+	left: auto;
+	right: 0;
+}
+.menu-dropdown .dropdown-bg > div { overflow: hidden; }
+.menu-dropdown .stack .column { width: 100%; }
+.menu-dropdown .columns2 { width: 600px; }
+.menu-dropdown .columns3 { width: 900px; }
+.menu-dropdown .columns4 { width: 1200px; }
+.menu-dropdown .column { float: left; }
+.menu-dropdown a.level2 > span,
+.menu-dropdown span.level2 > span {
+	padding: 7px 0;
+	line-height: 21px;
+	overflow: hidden;
+}
+.menu-dropdown ul.level3 { padding-bottom: 10px; }
+.menu-dropdown li.level3 {
+	font-size: 11px;
+	line-height: 17px;
+}
+.menu-dropdown span.icon {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	float: left;
+}
+.menu-dropdown .level1 .level1 span.icon {
+	width: 30px;
+	height: 30px;
+	margin-left: -5px;
+}
+.menu-dropdown .level1 .level1 span.icon + span,
+.menu-dropdown .level1 .level1 span.icon + span + span { margin-left: 25px; }
+.menu-dropdown li.level2 .level2 span.icon {
+	width: 35px;
+	height: 35px;
+	margin-top: -7px;
+	margin-bottom: -7px;
+}
+.menu-dropdown li.level2.hassubtitle .level2 span.icon { margin-top: -4px; }
+.menu-dropdown li.level2 .level2 span.icon { margin-right: 5px; }
+.menu-dropdown li.level2 .level2 span.icon + span,
+.menu-dropdown li.level2 .level2 span.icon + span + span { margin-left: 40px; }
+.menu-dropdown span.title { line-height: 18px; }
+.menu-dropdown span.subtitle {
+	margin-top: -1px;
+	font-size: 9px;
+	line-height: 10px;
+	text-indent: 1px;
+}
+.menu-dropdown li.level2 .level2 span.title { line-height: 15px; }
+.menu-dropdown li.level2 .level2 span.subtitle { line-height: 14px; }
+.menu-sidebar li.parent span.level1 > span { cursor: pointer; }
+.menu-sidebar a.level1 > span,
+.menu-sidebar span.level1 > span {
+	padding: 5px 0;
+	line-height: 20px;
+}
+.menu-sidebar span.title { display: inline; }
+.menu-sidebar span.subtitle { display: none; }
+.menu-sidebar ul.level2 { padding-bottom: 10px; }
+.menu-sidebar li.level1:last-child ul.level2 { padding-bottom: 0; }
+.menu-sidebar .level2 a > span {
+	font-size: 11px;
+	line-height: 17px;
+}
+.menu-sidebar span.icon {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	margin: -5px 5px -5px 0;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	vertical-align: middle;
+}
+.menu-line,
+.menu-line li,
+.menu-line li a { display: inline-block; }
+.menu-dropdown .dropdown {
+	top: 42px;
+	border-top: 1px solid #DDD;
+}
+.menu-dropdown .dropdown-bg > div {
+	padding: 0 5px;
+	border: 1px solid #ddd;
+	border-top: none;
+	background: #fff;
+}
+.menu-dropdown li.level2 { 
+	margin: 0 5px;
+	border-top: 1px solid #ddd;
+}
+.menu-dropdown li.level2:first-child { border: none; }
+.menu-dropdown a.level2,
+.menu-dropdown span.level2 { color: #444; }
+.menu-dropdown a.level2:hover { color: #d50; }
+.menu-dropdown a.current.level2 { font-weight: bold; } 
+.menu-dropdown a.level3:hover { color: #d50; }
+.menu-dropdown a.current.level3 { font-weight: bold; } 

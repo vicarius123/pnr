@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wrapper>
+	<params>
+		<param name="zoolingual" type="zoolang" default="" label="ZOOlingual" description="Choose the language asociated to this element." />
+	</params>
+	<params group="render">
+		<param name="zoolingual" type="zoolang" default="" label="ZOOlingual" description="PLG_ZOOLINGUAL_ASSOCIATE_LANG_DESC" />
+	</params>
+	<params group="submission">
+		<param name="zoolingual" type="zoolang" default="" label="ZOOlingual" description="PLG_ZOOLINGUAL_ASSOCIATE_LANG_DESC" />
+	</params>
+</wrapper>

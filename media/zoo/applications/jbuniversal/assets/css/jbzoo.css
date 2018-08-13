@@ -1,0 +1,814 @@
+
+/************************************* systems */
+.jbzoo {
+    
+}
+
+.jbzoo .clear,
+.jbzoo .clr {
+    clear: both;
+    overflow: hidden;
+    line-height: 0 !important;
+    height: 0 !important;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.jbzoo label[for],
+.jbzoo .select-lbl,
+.jbzoo .radio-lbl {
+    display: block;
+    cursor: pointer;
+}
+
+.jbzoo-rborder .rborder,
+.jbzoo-rborder .rborder {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #fbfbfb;
+}
+
+/************************************* widths */
+
+.jbzoo .width100 {
+
+}
+.jbzoo .width66 {
+    float: left;
+    width: 66.666%;
+}
+
+.jbzoo .width50 {
+    float: left;
+    width: 50%;
+}
+
+.jbzoo .width33 {
+    width: 33.333%;
+    float: left;
+}
+
+.jbzoo .width33.last {
+    margin-right: 0;
+}
+
+.jbzoo .width25 {
+    width: 25%;
+    float: left;
+}
+
+.jbzoo .width20 {
+    width: 20%;
+    float: left;
+}
+
+.jbzoo .width16 {
+    width: 16.666%;
+    float: left;
+}
+
+.jbzoo .category .title, 
+.jbzoo .jbzoo-item-full > h1,
+.jbzoo-view-submission > h1.title, 
+.jbzoo-view-tag > h1.title, 
+.jbzoo .news-title-date > h1 {
+	margin: 0 0 20px;
+}
+.jbzoo .subcategories .column, 
+.jbzoo .items .column {
+	margin-bottom: 25px;
+/*	margin-bottom: 45px; */
+}
+.jbzoo .ajax-block {
+	margin-top: 25px;
+}
+.jbzoo .subcategory-image.align-center, 
+.jbzoo .item-image.align-center {
+	margin-bottom: 0;
+}
+.jbzoo .column .subcategory-image, 
+.jbzoo .column .item-image {
+	text-align: center;
+}
+.jbzoo .column.first .subcategory-image, 
+.jbzoo .column.first .item-image {
+	text-align: left;
+}
+.jbzoo .column.last .subcategory-image, 
+.jbzoo .column.last .item-image {
+	text-align: right;
+}
+.jbzoo .column .subcategory-image img, 
+.jbzoo .column .item-image img {
+	width: 230px;
+	height: auto;
+}
+.jbzoo .column .subcategory-title, 
+.jbzoo .column .item-title {
+	text-transform: none;
+	margin: 18px auto 0;
+	width: 230px;
+	font-size: 21px;
+	line-height: 100%;
+	letter-spacing: 1px;
+}
+.jbzoo .column .item-title {
+	font-family: Tahoma,Geneva,sans-serif;
+	margin: 10px auto 0;
+	font-size: 13px;
+	letter-spacing: 0;
+}
+.jbzoo .column.first .subcategory-title,
+.jbzoo .column.first .item-title {
+	margin-left: 0;
+}
+.jbzoo .column.last .subcategory-title, 
+.jbzoo .column.last .item-title {
+	margin-right: 0;
+}
+.jbzoo .subcategory-title a, 
+.jbzoo .item-title a {
+	color: #514241;
+	text-decoration: none;
+}
+.jbzoo .jbzoo-hr {
+	margin-top: 0;
+	border-top-color: #C3BBAE;
+	margin-bottom: 25px;
+}
+.jbzoo .items .column .jbzoo-item .product-buttons {
+	margin: 15px auto 0;
+	border-top: 1px solid #C3BBAE;
+	padding-top: 12px;
+	width: 230px;
+}
+
+.jbzoo .items .column.first .jbzoo-item .product-buttons {
+	margin-left: 0;
+}
+.jbzoo .items .column.last .jbzoo-item .product-buttons {
+	margin-right: 0;
+}
+.jbzoo .items .column .jbzoo-item .product-buttons .jbprice-advance {
+	display: table;
+	width: 100%;
+}
+.jbzoo .items .column .jbzoo-item .product-buttons .jbprice-advance > * {
+	display: table-cell;
+	vertical-align: top;
+}
+.jbzoo .product-buttons .jbprice-buttons {
+	width: 80px;
+}
+.jbzoo .jsRemoveFromCart {
+	display: none;
+}
+.jbzoo .product-buttons .jsTotal, 
+.jbzoo .jbzoo-item .item-body .item-price-position .jsTotal, 
+.jbzoo .jbzoo-item .item-body .item-price-position .total {
+	font-family: 'PFDinTextCompPro';
+	font-size: 22px;
+	line-height: 100%;
+}
+.jbzoo .product-buttons .jsAddToCart, 
+.jbzoo .jbzoo-item .item-body .item-price-position .jsAddToCart {
+	text-transform: uppercase;
+	background: #F7C508;
+	color: #514241;
+	display: inline-block;
+	text-decoration: none;
+	border: none;
+	font-size: 12px;
+	padding: 5px 8px;
+	line-height: 100%;
+	float: right;
+}
+.jbzoo .jbprice-count table {
+	width: 100%;
+}
+.jbzoo .jbprice-count table,
+.jbzoo .jbprice-count table td {
+	padding: 0;
+	text-align: center;
+}
+.jbzoo .jbprice-count .jsCount, 
+.jbzoo .jbbasket-table .jsTotalCount, 
+.jbzoo .jbbasket-table .jsSubtotal, 
+.jbzoo .jbbasket-table .jsTotalPrice {
+	min-width: 0% !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 0;
+	width: 24px;
+	line-height: 100%;
+	font-size: 22px;
+	padding: 0;
+	height: auto;
+	font-family: 'PFDinTextCompPro';
+	border: 0;
+	background: none;
+	cursor: default;
+	height: 22px;
+	text-align: center;
+	margin-top: -3px;
+}
+.jbzoo .jbbasket-table .jsTotalCount, 
+.jbzoo .jbbasket-table .jsSubtotal, 
+.jbzoo .jbbasket-table .jsTotalPrice  {
+	width: auto;
+	height: auto;
+}
+.jbzoo .jbbasket-table .jsSubtotal, 
+.jbzoo .jbbasket-table .jsTotalPrice {
+	text-align: right;
+}
+.jbzoo .jbbasket-table .jsTotalPrice {
+	font-weight: bold;
+}
+.jbzoo .jbprice-count .btn-mini {
+	text-decoration: none;
+	color: #3c94d1;
+	font-family: 'PFDinTextCompPro';
+	line-height: 100%;
+	font-size: 22px;
+	text-align: center;
+	padding: 0;
+}
+.jbzoo .jbprice-count .jbzoo-text-td {
+	width: 20px;
+}
+.jbzoo .jbprice-count .jbzoo-minus-td {
+	text-align: right;
+}
+.jbzoo .jbprice-count .jbzoo-plus-td {
+	text-align: left;
+}
+
+.jbzoo .jbzoo-item .item-body {
+	display: table;
+	width: 100%;
+}
+.jbzoo .jbzoo-item .item-body > * {
+	display: table-cell;
+	vertical-align: top;
+}
+.jbzoo .jbzoo-item .item-body > clr {
+	display: none;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position {
+	width: 270px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 40px;
+	font-size: 13px;
+	line-height: 120%;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position > * {
+	margin-top: 30px;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position > .first {
+	margin-top: 10px;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position .element-label {
+	width: 100%;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position .jbprice-price {
+	padding-bottom:  40px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #C3BBAE;
+	
+}
+.jbzoo .jbzoo-item .item-body .item-price-position .jbprice-count {
+	width: 20%;
+	float: left;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position .jbprice-buttons {
+	float: right;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position .element-text span {
+	font-size: 15px;
+	line-height: 100%;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position .jsTotal, 
+.jbzoo .jbzoo-item .item-body .item-price-position .total {
+	font-size: 28px;
+	line-height: 100%;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position .jbprice-count .jsCount {
+	font-size: 28px;
+	line-height: 100%;
+	height: 28px;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position .jsAddToCart {
+	font-size: 14px;
+	line-height: 100%;
+	padding: 8px 18px;
+}
+.jbzoo .jbbasket-table a {
+	color: #514241;
+	text-decoration: none;
+}
+.jbzoo .jbbasket-table tbody tr {
+	border-bottom: 1px solid #C3BBAE;
+}
+.jbzoo .jbbasket-table tr td {
+	padding: 10px 0;
+}
+.jbzoo .jbbasket-table tfoot tr td:first-child strong {
+	font-family: 'PFDinTextCompPro';
+	font-size: 22px;
+	line-height: 100%;
+	font-weight: normal;
+}
+.jbzoo .jbbasket-submission .bfClearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.jbzoo .jbbasket-submission .field-label {
+	display: none;
+}
+.jbzoo .jbbasket-submission input, 
+.jbzoo .jbbasket-submission textarea {
+	margin: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.jbzoo .jbbasket-submission textarea {
+	resize: none;
+	max-height: 70px;
+	height: 70px;
+} 
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width33,
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width50,
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width66 {
+	padding: 0 1.766%;
+}
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width33 {
+	width: 33.333%;
+}
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width50 {
+	width: 50%;
+}
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width66 {
+	width: 66.666%;
+}
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width33.first, 
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width50.first, 
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width66.first {
+	padding-left: 0px;
+	padding-right: 3.533%;
+} 
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width33.last, 
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width50.last, 
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width66.last {
+	padding-right: 0px;
+	padding-left: 3.533%;
+}
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width66.last {
+	padding-left: 1.766%;
+}
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width33 .width50 {
+	padding: 0 9.2%;
+}
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width33 .width50.first {
+	padding-left: 0;
+}
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width33 .width50.last {
+	padding-right: 0;
+}
+
+.jbzoo .jbbasket-submission input[type="checkbox"] {
+/*
+	width: auto;
+	float: left;
+	height: 23px;
+	margin-right: 10px;
+*/
+	display: none;
+}
+.jbzoo .jbbasket-submission input[type="checkbox"] + label {
+    padding-left: 25px;
+    background:url(../img/misc/check.svg) left center no-repeat;
+	margin-bottom: 20px;
+	font-size: 12px;
+	color: #888;
+}
+.jbzoo .jbbasket-submission input[type="checkbox"]:checked + label {
+    background:url(../img/misc/check-checked.svg) left center no-repeat;
+	color: #514241;
+}
+.jbzoo .jbbasket-submission .submit-button {
+	float: left;
+}
+.jbzoo .jbbasket-submission .required-info {
+	float: right;
+	margin-top: 5px;
+}
+.jbzoo .jbbasket-submission .add-to-cart {
+	background: #F7C508;
+    border: medium none;
+    color: #514241;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.jbzoo .title-beforeOrderForom {
+	margin: 45px 0 25px;
+}
+.required-field.error .error-message {
+	display: none;
+}
+.required-field.error input {
+	border: 1px solid #B94A48;
+}
+.alert-error .close {
+	text-decoration: none;
+}
+.jbzoo .jbzoo-item-news .jbzoo-item-news {
+	width: 100%;
+}
+.jbzoo .jbzoo-item-news .date {
+	background: #FFF;
+	padding: 10px;
+	border-bottom: 1px solid #C3BBAE;
+}
+.jbzoo .jbzoo-item-news .title-news-blog-item {
+	background: #FFF;
+	padding: 10px;
+	text-transform: none;
+	margin: 0;
+	min-height: 40px;
+	line-height: 20px;
+}
+.jbzoo .jbzoo-item-news .title-news-blog-item a {
+	color: #514241;
+	text-decoration: none;
+}
+.jbzoo.jbzoo-app-novosti .width33 {
+	padding: 0 1.766%;
+	
+}
+.jbzoo.jbzoo-app-novosti .width33.first {
+	padding-left: 0;
+	padding-right: 3.533%
+}
+.jbzoo.jbzoo-app-novosti .width33.last {
+	padding-right: 0;
+	padding-left: 3.533%;
+}
+.jbzoo.jbzoo-app-novosti .zoo-list {
+	margin-bottom: 20px;
+	width: 100%;
+	float: left;
+}
+.jbzoo.jbzoo-app-novosti .zoo-list li {
+	margin: 0 5px 0 0;
+	padding: 0;
+	float: left;
+	border: 0;
+}
+.jbzoo.jbzoo-app-novosti .tags {
+	margin-top: 3px;
+}
+.jbzoo.jbzoo-app-novosti .tags a, 
+.jbzoo.jbzoo-app-novosti .zoo-list li a,
+.jbzoo .news-tags a {
+	color: #3c94d1;
+	text-decoration: none;
+	margin-right: 2px;
+	font-size: 12px;
+	line-height: 100%;
+}
+.jbzoo.jbzoo-app-novosti .tags a:hover, 
+.jbzoo.jbzoo-app-novosti .zoo-list li a:hover, 
+.jbzoo .news-tags a:hover {
+	text-decoration: underline;
+}
+.jbzoo.jbzoo-app-novosti .tags a:before, 
+.jbzoo.jbzoo-app-novosti .zoo-list li a:before,
+.jbzoo .news-tags a:before {
+	content: '#';
+}
+.jbzoo .news-tags {
+	margin-bottom: 30px;
+	width: 100%;
+}
+.jbzoo .page-nav {
+	margin: 15px 0;
+}
+.jbzoo .page-nav a {
+	color: #514241;
+	text-decoration: none;
+}
+.jbzoo .news-gallery-slider, 
+.jbzoo .news-gallery-wall {
+	display: none;
+	width: 100%;
+}
+.jbzoo .news-gallery-slider.active, 
+.jbzoo .news-gallery-wall.active {
+	display: block;
+}
+.jbzoo .gallery-toggler, 
+.jbzoo .gallery-toggler .slider-toggler, 
+.jbzoo .gallery-toggler .wall-toggler, 
+.jbzoo .gallery-toggler .slider-toggler .slider-toggler-square, 
+.jbzoo .gallery-toggler .slider-toggler .wall-toggler-square {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+}
+.jbzoo .gallery-toggler {
+	background: #FFF;
+	width: 62px;
+	height: 26px;
+	position: relative;
+	float: right;
+	margin-top: -53px;
+}
+.jbzoo .gallery-toggler .slider-toggler {
+	padding: 5px;
+	height: 26px;
+	width: 26px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+.jbzoo .gallery-toggler .wall-toggler {
+	padding: 5px;
+	height: 26px;
+	width: 26px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+.jbzoo .gallery-toggler .slider-toggler .slider-toggler-square {
+	width: 100%;
+	height: 100%;
+	background: #eeeeee;
+}
+.jbzoo .gallery-toggler .wall-toggler-square {
+	background: #eeeeee;
+	width: 6px;
+	height: 6px;
+	position: absolute;
+}
+.jbzoo .gallery-toggler .wall-toggler .wall-toggler-square.wts1 {
+	top: 5px;
+	left: 5px;
+}
+.jbzoo .gallery-toggler .wall-toggler .wall-toggler-square.wts2 {
+	top: 5px;
+	right: 5px;
+}
+.jbzoo .gallery-toggler .wall-toggler .wall-toggler-square.wts3 {
+	top: 15px;
+	left: 5px;
+}
+.jbzoo .gallery-toggler .wall-toggler .wall-toggler-square.wts4 {
+	top: 15px;
+	right: 5px;
+}
+.jbzoo .gallery-toggler .slider-toggler.active .slider-toggler-square, 
+.jbzoo .gallery-toggler .wall-toggler.active .wall-toggler-square {
+	background: #999;
+}
+.jbzoo .news-title-date {
+	display: table;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.jbzoo .news-title-date > * {
+	display: table-cell;
+}
+.jbzoo .news-title-date > h1 {
+	width: 90%;
+}
+.jbzoo .news-title-date > .news-date {
+	width: 10%;
+	padding-top: 2px;
+	text-align: right;
+}
+.basket-item-delete {
+	text-align: center;
+}
+.basket-item-delete input {
+	margin-top: -10px;
+	background: 0;
+	border: 0;
+}
+.jbzoo .pagination {
+	display: none;
+}
+.jbzoo #ajax-btn {
+	text-align: center;
+	margin-top: 45px;
+	margin: 45px auto 0;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background: url(../img/misc/load_more.png) center center no-repeat,
+				#3C94D1;
+}
+.jbzoo #ajax-btn.no-more {
+	background: url(../img/misc/load_more.png) center center no-repeat,
+				#514241;
+}
+.jbzoo .rsslink {
+	display: none;
+}
+
+
+/* SPEC BROWSERS */
+
+.firefox .jbzoo .jbprice-count .jsCount {
+	margin-top: 0px;
+}
+.firefox .jbzoo .jbbasket-table .jbprice-count .jsCount {
+	margin-top: -3px;
+}
+@media (min-width: 1201px) {
+
+
+.jbzoo .items .column.last-line {
+/*	margin-bottom: 0; */
+}
+
+
+
+}
+@media (max-width: 1200px) {
+
+
+.jbzoo .subcategories .width33, 
+.jbzoo .items .width33, 
+.jbzoo.jbzoo-app-novosti .width33 {
+	width: 50%;
+	padding-right: 25px;
+}
+.jbzoo.jbzoo-app-novosti .width33.odd {
+	padding-right: 3.533%;
+	padding-left: 0;
+	clear: left;
+}
+.jbzoo .subcategories .width33.even, 
+.jbzoo .items .width33.even, 
+.jbzoo.jbzoo-app-novosti .width33.even {
+	width: 50%;
+	padding-right: 0px;
+	padding-left: 25px;
+}
+.jbzoo .subcategories .clear, 
+.jbzoo .items .clear {
+	display: none;
+}
+.jbzoo .column .subcategory-image, 
+.jbzoo .column .item-image, 
+.jbzoo .column.last .subcategory-image, 
+.jbzoo .column.last .item-image {
+	text-align: left;
+}
+.jbzoo .column .subcategory-image img, 
+.jbzoo .column .item-image img {
+	width: 100%;
+	height: auto;
+}
+.jbzoo .column .subcategory-title, 
+.jbzoo .column .item-title, 
+.jbzoo .items .column .jbzoo-item .product-buttons {
+	width: 100%;
+	text-align: left;
+}
+.jbzoo .gallery-toggler, 
+.jbzoo .gallery-toggler .news-gallery-wall {
+	display: none;
+}
+.jbzoo .news-title-date, 
+.jbzoo .news-title-date > * {
+	display: block;
+	width: 100% !important;
+}
+.jbzoo .news-title-date > .news-date {
+	padding: 0;
+	text-align: left;
+}
+.jbzoo.jbzoo-app-novosti .width33.last-line.last, 
+.jbzoo.jbzoo-app-novosti .width33.last-line.odd {
+	margin-bottom: 0;
+}
+
+.jbzoo .jbzoo-item .item-body .item-price-position > .first {
+	margin-top: 0;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position > * {
+	margin-top: 15px;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position .element-label {
+	margin-bottom: 10px;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position .jbprice-price {
+	padding-bottom: 10px;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position .jbprice-count {
+	width: auto;
+}
+
+
+}
+@media (max-width: 767px) {
+
+
+.jbzoo .subcategories .width33, 
+.jbzoo .items .width33,
+.jbzoo.jbzoo-app-novosti .width33,
+.jbzoo.jbzoo-app-novosti .width33.odd {
+	padding-right: 10px;
+}
+.jbzoo .subcategories .width33.even, 
+.jbzoo .items .width33.even, 
+.jbzoo.jbzoo-app-novosti .width33.even {
+	padding-left: 10px;
+}
+.jbzoo .subcategories .column, 
+.jbzoo .items .column,
+.jbzoo.jbzoo-app-novosti .width33 {
+	margin-bottom: 25px;
+}
+.jbzoo .ajax-block {
+	margin-top: 25px;
+}
+.jbzoo #ajax-btn {
+	margin-top: 25px;
+}
+.jbzoo .jbzoo-item .item-body {
+	display: block;
+}
+.jbzoo .jbzoo-item .item-body > * {
+	display: block;
+	width: 100%;
+	float: left;
+}
+.jbzoo .jbzoo-item .item-body .item-price-position {
+	margin-top: 10px;
+	padding: 0;
+	width: 100%;
+}
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width33,
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width50,
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width66 {
+	width: 100%;
+	padding: 0 !important;
+	margin-bottom: 25px;
+}
+.jbzoo .jbbasket-submission .bfQuickMode span.bfElemWrap.width33 .width50.last {
+	margin-bottom: 0;
+}
+.checkboxes-container {
+	margin-bottom: 0 !important;
+}
+.jbzoo .jbbasket-submission .required-info {
+	float: left;
+	margin-top: 20px;
+	clear: left;
+}
+
+}
+
+@media (max-width: 479px) {
+
+.jbzoo .subcategories .width33, 
+.jbzoo .items .width33, 
+.jbzoo .subcategories .width33.even, 
+.jbzoo .items .width33.even, 
+.jbzoo.jbzoo-app-novosti .width33, 
+.jbzoo.jbzoo-app-novosti .width33.even, 
+.jbzoo.jbzoo-app-novosti .width33.odd {
+	width: 100%;
+	padding: 0px;
+}
+.jbzoo.jbzoo-app-novosti .width33 {
+	margin-bottom: 25px !important;
+}
+.jbzoo.jbzoo-app-novosti .width33.last-line.last {
+	margin-bottom: 0px !important;
+}
+
+
+}

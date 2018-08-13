@@ -1,0 +1,95 @@
+Changelog
+------------
+
+3.0.1
+ + Submission compatibility partially recovered
+
+3.0
+ ^ Stable version reached
+
+3.0 BETA
+ ^ ZOO & Joomla 3 compatibility
+ - Removed j1.5 compatibility
+
+2.5.7
+ ^ Select JS updated
+ + Item Meta Title translation option
+ ^ Alias Helper updated
+
+2.5.6
+ ^ Potential conflict with Element rendering avoided
+
+2.5.5
+ ^ Lang Strings updated
+ # Fixed the Name bug triggered by the Save Event
+
+2.5.4
+ + Added category slug translation
+ + Added application name translation
+ + Added application slug translation
+ # Fixed issue on submission
+
+2.5.3
+ # Fields issues fixed
+ # Fixed false 1 value on new Items
+ - Removed translate options from Submission Backend page
+
+2.5.2
+ # Fix from last update
+
+2.5.1
+ ^ ZOO 2.5.13 compatibility
+ # General bug fixing
+ ^ Dependencies check
+
+2.5 b1 > Stable
+ + App Categories Title for Product App
+ # ZOOfilter integration
+ # Alias translation Helper updated
+ # FrontPage Params saving fixed
+ # Allowed using double quotes on Text Params Field
+ + Items Title FrontPage Translation
+ # Fixed ZOO 2.5.5 incompatibility
+ # Several minor bug fixed
+ ^ ZOO 2.5 Transition
+ + Multi-language option
+ + Group Elements Option
+
+2.4.6
+ + Item Alias Translation
+ + JOOlang plugin to show/hide content by lang parameter
+ 
+
+2.4.5
+ ^ Joomla 1.5 and 1.7 compatibility, merged
+
+2.4.4
+ + Added frontpage description translation
+
+2.4.3
+ # Fixed issues width images / frontpage translations
+ + Added Subline translation for blog app
+ + Added 1.6 dedicated xml file
+
+2.4.2
+ # Fixed issue that prevented language association in Safari 5
+ + Added Submission translation
+ + Added Category images translation
+ + Added Frontpage translation
+ ^ Merged 1.6 and 1.5 plugins
+
+2.4.1
+ # Fixed issue that prevented some elements from being translated in J1.6
+ + An language flag is now showed by the element on Item Edit view
+ ^ Select plugin works now with jQuery 1.6.1
+
+2.4.0
+ Initial Release
+
+* -> Security Fix
+# -> Bug Fix
+$ -> Language fix or change
++ -> Addition
+^ -> Change
+- -> Removed
+! -> Note

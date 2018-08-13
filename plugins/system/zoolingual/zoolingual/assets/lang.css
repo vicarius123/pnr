@@ -1,0 +1,116 @@
+/****
+ * Multiselect
+ ****/
+ 
+.ui-multiselect { padding:2px 0 2px 4px; text-align:left }
+.ui-multiselect span.ui-icon { float:right }
+.ui-multiselect-single .ui-multiselect-checkboxes input { position:absolute !important; top: auto !important; left:-9999px; }
+.ui-multiselect-single .ui-multiselect-checkboxes label { padding:5px !important }
+
+.ui-multiselect-header { margin-bottom:3px; padding:3px 0 3px 4px }
+.ui-multiselect-header ul { font-size:0.9em }
+.ui-multiselect-header ul li { float:left; padding:0 10px 0 0 }
+.ui-multiselect-header a { text-decoration:none }
+.ui-multiselect-header a:hover { text-decoration:underline }
+.ui-multiselect-header span.ui-icon { float:left }
+.ui-multiselect-header li.ui-multiselect-close { float:right; text-align:right; padding-right:0 }
+
+.ui-multiselect-menu { display:none; padding:3px; position:absolute; z-index:10000 }
+.ui-multiselect-checkboxes { position:relative /* fixes bug in IE6/7 */; overflow-y:scroll }
+.ui-multiselect-checkboxes label { cursor:default; display:block; border:1px solid transparent; padding:3px 1px }
+.ui-multiselect-checkboxes label input { position:relative; top:1px }
+.ui-multiselect-checkboxes li { clear:both; font-size:0.9em; padding-right:3px }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label { text-align:center; font-weight:bold; border-bottom:1px solid }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a { display:block; padding:3px; margin:1px 0; text-decoration:none }
+
+/* remove label borders in IE6 because IE6 does not support transparency */
+* html .ui-multiselect-checkboxes label { border:none }
+
+/*@ additiona ZL code*/
+.ui-multiselect-checkboxes label {display: block !important; padding: 2px 1px 3px; margin: 0 !important; float: none !important; }
+.ui-multiselect-checkboxes label input {margin: 3px; vertical-align: bottom !important; float: none !important;}
+.ui-multiselect-checkboxes li {padding: 0 !important;}
+button.ui-multiselect {border: 1px solid silver;}
+.ui-multiselect-checkboxes label.ui-state-hover span {font-weight: normal; color: white !important;}
+.ui-multiselect.ui-widget { font-size: 10px; }
+.ui-multiselect .ui-icon { height: 12px; }
+.ui-multiselect .ui-icon-triangle-2-n-s {background-position: -125px -19px;}
+.ui-multiselect.ui-state-active,
+.ui-multiselect.ui-widget-content .ui-state-active,
+.ui-multiselect.ui-widget-header .ui-state-active { color: #0B55C4; }
+
+.ui-multiselect-checkboxes .element-lang {margin: 0 10px 0 8px}
+
+/****
+ * END Multiselect
+ ****/
+
+
+strong span.element-lang {margin: 3px 0 0 4px} /* Item View */
+
+/* Manager _assignelements View  */
+#assign-elements ul.element-list  li.element div.name span:first-child,
+#manager-editelements ul.element-list  li.element div.name  span:first-child{
+	margin-right: 14px;
+}
+#assign-elements div.name span.element-lang,
+#manager-editelements div.name span.element-lang{
+	margin: 0 3px
+}
+
+#assign-elements .zoolingual-edit { margin-top: 10px;}
+#assign-elements .zling-label input { margin: 2px 7px 0 17px; }
+#assign-elements .zling-label .lang-msg {float: left; margin: 5px 5px 3px;}
+#assign-elements .zling-label label {
+    clear: none;
+    color: #666666;
+    font-weight: bold;
+}
+
+
+
+/*
+ * FLAGS
+ */
+
+ 
+/* Item Params */
+ul.parameter-form li .field span.inputlang .element-lang {margin-left: 5px;}
+ul.parameter-form li .field span.inputlang input[type="text"] {margin: 1px;}
+
+span.element-lang {
+	width: 16px;
+	height: 11px;
+	background:url(flags.png) no-repeat;
+	display: inline-block;
+}
+
+/* language flags from http://flag-sprites.com */
+span.element-lang.ar-AA {background-position: -160px -121px}	/* Saudi Arabia */
+span.element-lang.cs-CZ {background-position: -48px -33px} 		/* Czech Republic */
+span.element-lang.de-DE {background-position: -64px -33px} 		/* Denmark */
+span.element-lang.el-GR {background-position: -80px -55px} 		/* Greece */
+span.element-lang.en-GB {background-position: -160px -44px} 	/* Great Britain */
+span.element-lang.es-ES {background-position: 0 -44px} 			/* Spain */
+span.element-lang.ca-ES {background-position: -64px -22px} 		/* Spain - Catalonian */
+span.element-lang.es-MX {background-position: -96px -99px} 		/* Mexico */
+span.element-lang.fr-FR {background-position: -128px -44px} 	/* France */
+span.element-lang.hu-HU {background-position: 0 -66px} 			/* Hungary */
+span.element-lang.it-IT {background-position: -144px -66px} 	/* Italy */
+span.element-lang.nl-NL {background-position: -240px -99px} 	/* Netherlands */
+span.element-lang.pl-PL {background-position: -192px -110px} 	/* Poland */
+span.element-lang.pt-BR {background-position: -192px -11px} 	/* Brazil */
+span.element-lang.pt-PT {background-position: -16px -121px} 	/* Portugal */
+span.element-lang.ro-RO {background-position: -96px -121px} 	/* Romania */
+span.element-lang.ru-RU {background-position: -128px -121px} 	/* Russian Federation */
+span.element-lang.sk-SK {background-position: -48px -132px} 	/* Slovakia */
+span.element-lang.sr-RS {background-position: -112px -121px} 	/* Serbia - Cirilic */
+span.element-lang.sr-YU {background-position: -112px -121px} 	/* Serbia - Latin */
+span.element-lang.sv-SE {background-position: -240px -121px} 	/* Sweden */
+span.element-lang.bs-BA {background-position: 0 -11px} 			/* Bosnia and Herzegovina */
+span.element-lang.ja-JP {background-position: -192px -66px}		/* Japan */
+span.element-lang.ko-KR {background-position: -64px -77px}		/* Korean */
+span.element-lang.zh-CN {background-position: -208px -22px}		/* Chinese Simplified */
+span.element-lang.da-DK {background-position: -96px -33px}		/* Danish */
+span.element-lang.uk-UA {background-position: -208px -143px}	/* Ukraine */
+span.element-lang.en-US {background-position: 0 -154px}			/* United States */
